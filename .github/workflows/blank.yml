@@ -1,4 +1,4 @@
-name: time-push
+name: Daily_Push
 on:
   workflow_dispatch:
   schedule: 
@@ -25,4 +25,4 @@ jobs:
           pip3 install -r requirements.txt
       - name: time_push_new
         run: |
-          python3 main.py
+          python3 main.py          
